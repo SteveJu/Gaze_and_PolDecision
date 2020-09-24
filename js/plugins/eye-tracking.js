@@ -435,10 +435,10 @@ jsPsych.plugins["eye-tracking"] = (function () {
           startValidation(function(validationData) {
             var data = {
               validationPoints: JSON.stringify( validationData.points),
-             // validationData.points,
+              //validationData.points,
               accuracy: computeAccuracy(validationData.points),
               //calibrationHistory: calibrationData.history,
-             // validationnHistory: validationData.history,
+              //validationnHistory: validationData.history,
             };
             jsPsych.finishTrial(data);
           });

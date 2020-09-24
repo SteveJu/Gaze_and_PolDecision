@@ -5,6 +5,10 @@ var instruct_img = [];
 for (var i = 0; i < nImageInst; i++) {
     instruct_img.push('img/instruct' + i + '.png');
 }
+var issue_img = [];
+for (var i =0; i< nImageInst;i++){
+    issue_img.push('img/issue'+(i+1)+'.jpg');
+}
 
 
 var enter_fullscreen = {
@@ -133,7 +137,7 @@ var eyeTrackingInstruction3 = {
 //eye tracking parameters
 var calibrationMax = 3;
 var calibrationAttempt = 0;
-var success = false; //update if there's a success
+var success = true; //update if there's a success
 var subject_id = 1;
 var eye_calibration_state = {
     doInit: true
@@ -191,3 +195,41 @@ var webgazercalistart = {
     loop_function: () => (calibrationAttempt < calibrationMax) && (!success),
 };
 
+var experimentOverview = {
+    type: 'html-keyboard-response',
+    on_start: function () {
+        webgazer.pause(),
+            webgazer.clearData()
+    },
+    stimulus: `<div> 
+                         Success! The calibration and validation were successful. <br/>
+                          When you are ready, press the  <b>SPACE BAR</b> to continue. </div>`,
+    choices: ['spacebar'],
+    post_trial_gap: 500,
+}
+
+var test1a = {
+    type: 'html-keyboard-response',
+    stimulus: `<img height="770px" width="1026px" src="${issue_img[0]}">`,
+    choices: ['spacebar'],
+    post_trial_gap: 500,
+}
+var test1b = {
+    type: 'html-keyboard-response',
+    stimulus: `<img height="770px" width="1280px" src="${issue_img[1]}">`,
+    choices: ['leftarrow','rightarrow'],
+    post_trial_gap: 500,
+}
+
+var test2a = {
+    type: 'html-keyboard-response',
+    stimulus: `<img height="770px" width="1026px" src="${issue_img[2]}">`,
+    choices: ['spacebar'],
+    post_trial_gap: 500,
+}
+var test2b = {
+    type: 'html-keyboard-response',
+    stimulus: `<img height="770px" width="1280px" src="${issue_img[3]}">`,
+    choices: ['leftarrow','rightarrow'],
+    post_trial_gap: 500,
+}
