@@ -10,26 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1">
-      <change afterPath="$PROJECT_DIR$/.idea/Gaze_and_PolDecision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/._e2tp9d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/e2tp9d4/._1599172652781.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/e2tp9d4/._1599172779580.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/e2tp9d4/._1599172858268.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/e2tp9d4/._1599172995407.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/__MACOSX/e2tp9d4/._1599173072800.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/e2tp9d4/1599172652781.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/e2tp9d4/1599172779580.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/e2tp9d4/1599172858268.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/e2tp9d4/1599172995407.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testraw/e2tp9d4/1599173072800.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main_task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/eye-tracking.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/eye-tracking.js" afterDir="false" />
-    </list>
+    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +48,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600918748566</updated>
-      <workItem from="1600918749962" duration="2967000" />
+      <workItem from="1600918749962" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -76,7 +57,21 @@
       <option name="project" value="LOCAL" />
       <updated>1600918838849</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version1">
+      <created>1600923321334</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600923321334</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Version1">
+      <created>1600923330089</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600923330089</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,10 +93,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600918844085">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600923336166">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600918844085" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600923336166" />
     <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600923093423">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>

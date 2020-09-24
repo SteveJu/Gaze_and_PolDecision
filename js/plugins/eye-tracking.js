@@ -447,8 +447,5 @@ jsPsych.plugins["eye-tracking"] = (function () {
       });
     });
   };
-
-
-
   return plugin;
 })();
