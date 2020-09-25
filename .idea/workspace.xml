@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1" />
+    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main_task.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="6bcc7f8a-1ab1-4b12-b03a-51f355b75d19" />
   <component name="ProjectId" id="1hwOaBWFOdC9F48f8lP17hOLZHM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labresearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +63,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600918748566</updated>
       <workItem from="1600918749962" duration="3043000" />
-      <workItem from="1600993395479" duration="1721000" />
+      <workItem from="1600993395479" duration="2426000" />
+      <workItem from="1600997687687" duration="306000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -89,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600993414427</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Version1">
+      <created>1600995252142</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600995252142</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,19 +120,19 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version1" />
     <MESSAGE value="version3" />
-    <option name="LAST_COMMIT_MESSAGE" value="version3" />
+    <MESSAGE value="Version1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1600995131458">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1600995131458" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600993417491">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600995255443">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600993417491" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600995255443" />
     <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600993908735">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>

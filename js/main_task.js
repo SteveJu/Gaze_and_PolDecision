@@ -137,7 +137,7 @@ var eyeTrackingInstruction3 = {
 //eye tracking parameters
 var calibrationMax = 3;
 var calibrationAttempt = 0;
-var success = false; //update if there's a success
+var success = true; //update if there's a success
 var subject_id = 1;
 var eye_calibration_state = {
     doInit: true
@@ -181,11 +181,11 @@ var webgazercalistart = {
             validationDots: 12, //change to 12
             validationDuration: 3,
             validationTol: validationTols[calibrationAttempt],
-            // showPoint: true,
+            showPoint: true,
             on_finish: function (data) {
                 calibrationAttempt++;
-                if (data.accuracy >= validationAccuracys[calibrationAttempt - 1]) {
-                    success = true;
+                if (data.accuracy < validationAccuracys[calibrationAttempt - 1]) {
+                    success = false;
                     //print(data.accuracy)
                     //print(validationAccuracys[calibrationAttempt - 1])
                 }
