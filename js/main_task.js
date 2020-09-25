@@ -137,7 +137,7 @@ var eyeTrackingInstruction3 = {
 //eye tracking parameters
 var calibrationMax = 3;
 var calibrationAttempt = 0;
-var success = true; //update if there's a success
+var success = false; //update if there's a success
 var subject_id = 1;
 var eye_calibration_state = {
     doInit: true

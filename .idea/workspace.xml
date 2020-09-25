@@ -32,13 +32,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../labresearch" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main_task.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/main_task.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main_task.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600918748566</updated>
       <workItem from="1600918749962" duration="3043000" />
+      <workItem from="1600993395479" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -71,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600923330089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version3">
+      <created>1600993414427</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600993414427</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,19 +105,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version1" />
+    <MESSAGE value="version3" />
+    <option name="LAST_COMMIT_MESSAGE" value="version3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600923336166">
+    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1600995131458">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600923336166" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600923093423">
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1600995131458" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600993417491">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1600923093423" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600993417491" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600993908735">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/0.0.2194.1194@0.0.2194.1194" timestamp="1600993908735" />
   </component>
 </project>
