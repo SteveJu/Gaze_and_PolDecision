@@ -184,7 +184,11 @@ var webgazercalistart = {
             // showPoint: true,
             on_finish: function (data) {
                 calibrationAttempt++;
-                if (data.accuracy >= validationAccuracys[calibrationAttempt - 1]) success = true;
+                if (data.accuracy >= validationAccuracys[calibrationAttempt - 1]) {
+                    success = true;
+                    //print(data.accuracy)
+                    //print(validationAccuracys[calibrationAttempt - 1])
+                }
                 if (!success && calibrationAttempt == calibrationMax) {
                     survey_code = makeSurveyCode('failed');
                     jsPsych.endExperiment(`We are sorry that eye-calibration failed too many times.The experiment was ended.Thank you for participating! </br> You will receive 50 cents for participating. Your survey code is: ${survey_code}`);
