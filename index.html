@@ -135,31 +135,71 @@
 </body>
 
 <script src="js/basic.js"></script>
-<script src="js/webgazer.js"></script>
-<script src="js/main_task.js"></script>
+<!-- call the library  -->
 <script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/bowser.js"></script>
+<script src="js/jspsych.js"></script>
 <script src="js/js-combinatrorics-0.5.5.min.js"></script>
+<script src="js/webgazer.js"></script>
 <script src="js/jcanvas.min.js"></script>
 <script src="js/utilsHelper.js"></script>
-
-<script src="js/jspsych.js"></script>
-<script src="js/plugins/jspsych-image-keyboard-response.js"></script>
+<!-- call the plugins -->
 <script src="js/plugins/jspsych-html-keyboard-response.js"></script>
+<script src="js/plugins/jspsych-image-slider-response.js"></script>
+<script src="js/plugins/jspsych-image-keyboard-response.js"></script>
+<script src="js/plugins/jspsych-survey-text.js"></script>
+<script src="js/plugins/jspsych-call-function.js"></script>
+<script src="js/plugins/decoy-gamble.js"></script>
+<script src="js/plugins/binary-choice.js"></script>
 <script src="js/plugins/jspsych-fullscreen.js"></script>
 <script src="js/plugins/eye-tracking.js"></script>
+<!-- call your experiement script -->
+<script src="file/stimuli.js"></script>
+<script src="js/main_task.js"></script>
 <script>
     document.getElementById("continue").onclick = function () {
         if (document.getElementById("check").checked === false) {
             alert("Please click the button");
         } else {
-            jsPsych.init({
-                timeline: [enter_fullscreen, page3,page4, page5,
-                    eyeTrackingInstruction1,eyeTrackingInstruction2,
-                    webgazercalistart,experimentOverview,test1a,test1b,test2a,test2b],
-                on_finish: function(){},
-                preload_images: [instruct_img],
+            document.getElementById("continue").addEventListener('click', () => {
+                ensureWebcam(() => startExperiment());
             });
+            event.stopPropagation();
         }
     }
+
+    function ensureWebcam(callback) {
+        $('body').html('<p class="center", style="font-family:Arial, Helvetica, sans-serif">Checking webcam ...</p>');
+        window.navigator.mediaDevices.getUserMedia({ video: true })
+            .then(function(stream) {
+                stream.getTracks().forEach(track => track.stop());
+                callback();
+            })
+            .catch(function() {
+                alert('Cannot open webcam.\nIs it blocked? This app requires webcam.');
+                location.reload();
+            });
+    }
+
+    function startExperiment(){
+        jsPsych.init({
+        timeline: [enter_fullscreen, page3,page4, page5,
+            eyeTrackingInstruction1,eyeTrackingInstruction2,
+            webgazercalistart,experimentOverview,test1a,test1b,test2a,test2b],
+        on_finish: function(){},
+        preload_images: [instruct_img],
+    });}
+
+
 </script>
+
+
+<style>
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
+
 </html>

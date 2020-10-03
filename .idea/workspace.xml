@@ -11,8 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1">
+      <change afterPath="$PROJECT_DIR$/file/stimuli.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bowser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins/binary-choice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/plugins/decoy-gamble.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main_task.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/eye-tracking.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/eye-tracking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jspsych-fullscreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jspsych-fullscreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jspsych-image-slider-response.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jspsych-image-slider-response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jspsych-survey-multi-choice.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jspsych-survey-multi-choice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/plugins/jspsych-survey-text.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jspsych-survey-text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webgazer.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/webgazer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/materials/full-screen-demo.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +52,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision" />
+      <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js" />
+      <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js\plugins" />
     </key>
   </component>
   <component name="RunManager">
@@ -65,6 +82,8 @@
       <workItem from="1600918749962" duration="3043000" />
       <workItem from="1600993395479" duration="2426000" />
       <workItem from="1600997687687" duration="306000" />
+      <workItem from="1601009182147" duration="803000" />
+      <workItem from="1601652179163" duration="4910000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -101,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600995252142</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version1">
+      <created>1601008427439</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601008427440</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,14 +151,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Version1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1600995131458">
+    <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1601681323443">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1600995131458" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1600995255443">
+    <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1601681323443" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1601008431079">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1600995255443" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1601008431079" />
     <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600993908735">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>

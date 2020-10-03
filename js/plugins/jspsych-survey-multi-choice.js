@@ -123,9 +123,11 @@ jsPsych.plugins['survey-multi-choice'] = (function() {
       html += '<div id="jspsych-survey-multi-choice-'+question_id+'" class="'+question_classes.join(' ')+'"  data-name="'+question.name+'">';
 
       // add question text
-      html += '<p class="jspsych-survey-multi-choice-text survey-multi-choice">' + question.prompt 
+     // html += '<p class="jspsych-survey-multi-choice-text survey-multi-choice">' + question.prompt 
+     html += `<div id="jspsych-survey-multi-choice-image " ><img height="300px" width="500px" src="${question.prompt}"/></div>`;
+    // html += '<div id="jspsych-survey-multi-choice-text " >Please choose the mission statement that matches the charity. </div>';
       if(question.required){
-        html += "<span class='required'>*</span>";
+        html += "<span class='required'>Which of the following mission statement matches the charity best? *</span>";
       }
       html += '</p>';
 
@@ -182,7 +184,7 @@ jsPsych.plugins['survey-multi-choice'] = (function() {
       // save data
       var trial_data = {
         "rt": response_time,
-        "responses": JSON.stringify(question_data),
+        "quiz_responses": JSON.stringify(question_data),
         "question_order": JSON.stringify(question_order)
       };
       display_element.innerHTML = '';

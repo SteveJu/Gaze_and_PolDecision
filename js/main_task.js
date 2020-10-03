@@ -137,7 +137,7 @@ var eyeTrackingInstruction3 = {
 //eye tracking parameters
 var calibrationMax = 3;
 var calibrationAttempt = 0;
-var success = true; //update if there's a success
+var success = false; //update if there's a success
 var subject_id = 1;
 var eye_calibration_state = {
     doInit: true
@@ -176,22 +176,25 @@ var webgazercalistart = {
             doCalibration: true,
             doValidation: true,
             calibrationDots: 12, // change to 12
-            calibrationDuration: 5, //change to 5
+            calibrationDuration: 3, //change to 5
             doValidation: true,
             validationDots: 12, //change to 12
-            validationDuration: 3,
+            validationDuration: 2,
             validationTol: validationTols[calibrationAttempt],
-            showPoint: true,
+            //showPoint: true,
             on_finish: function (data) {
-                calibrationAttempt++;
-                if (data.accuracy < validationAccuracys[calibrationAttempt - 1]) {
-                    success = false;
-                    //print(data.accuracy)
-                    //print(validationAccuracys[calibrationAttempt - 1])
-                }
-                if (!success && calibrationAttempt == calibrationMax) {
-                    survey_code = makeSurveyCode('failed');
-                    jsPsych.endExperiment(`We are sorry that eye-calibration failed too many times.The experiment was ended.Thank you for participating! </br> You will receive 50 cents for participating. Your survey code is: ${survey_code}`);
+                console.log(JSON.parse(data.validationPoints)[0].hitRatio == null);
+                if(JSON.parse(data.validationPoints)[0].hitRatio == null) {
+                    jsPsych.endExperiment('The study has ended. You may have exited full screen mode, or your browser may not be compatible with our study.');
+                } else {
+                    calibrationAttempt++;
+                    alert(data.accuracy)
+                    if (data.accuracy >= validationAccuracys[calibrationAttempt - 1]) success = true;
+                    if (!success && calibrationAttempt == calibrationMax) {
+                        survey_code = makeSurveyCode('failed');
+                        closeFullscreen();
+                        jsPsych.endExperiment(`Sorry, unfortunately the webcam calibration has failed.  We can't proceed with the study.  </br> You will receive 50 cents for making it this far. Your survey code is: ${survey_code}. Thank you for signing up!` );
+                    }
                 }
             }
         }
