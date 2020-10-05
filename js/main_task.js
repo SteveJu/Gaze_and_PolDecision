@@ -702,11 +702,6 @@ var on_finish_callback = function () {
 
 var trialcounter;
 
-
-
-
-
-
 function startExperiment() {
   jsPsych.init({
     timeline: [

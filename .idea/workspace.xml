@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version1" />
+    <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main_task.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,17 +36,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../GPresearch" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision" />
       <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js" />
       <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js\plugins" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\SteveZhu\Desktop\AU2020\Gaze_and_PolDecision\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,6 +72,8 @@
       <workItem from="1600997687687" duration="306000" />
       <workItem from="1601009182147" duration="803000" />
       <workItem from="1601652179163" duration="7418000" />
+      <workItem from="1601701229852" duration="228000" />
+      <workItem from="1601914312481" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -119,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601684504184</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Version2">
+      <created>1601701285482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601701285482</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Version2">
+      <created>1601701451304</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601701451304</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,17 +159,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version3" />
     <MESSAGE value="Version1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version1" />
+    <MESSAGE value="Version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1601684592496">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="878" y="352" key="FileChooserDialogImpl/0.0.2194.1194@0.0.2194.1194" timestamp="1601684592496" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1601684506558">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1601701454031">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1601684506558" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/0.0.2194.1194@0.0.2194.1194" timestamp="1601701454031" />
     <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1600993908735">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
