@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33a01d50-603d-4540-acb0-f994f4c1b37a" name="Default Changelist" comment="Version2">
+      <change afterPath="$PROJECT_DIR$/js/timeFunctions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main_task.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main_task.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,7 +82,8 @@
       <workItem from="1601009182147" duration="803000" />
       <workItem from="1601652179163" duration="7418000" />
       <workItem from="1601701229852" duration="228000" />
-      <workItem from="1601914312481" duration="298000" />
+      <workItem from="1601914312481" duration="2936000" />
+      <workItem from="1602518230519" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="Version1">
       <created>1600918838849</created>
@@ -138,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601701451304</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="updated">
+      <created>1601914763414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601914763414</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +177,8 @@
     <MESSAGE value="version3" />
     <MESSAGE value="Version1" />
     <MESSAGE value="Version2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version2" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="878" y="352" key="FileChooserDialogImpl" timestamp="1601684592496">

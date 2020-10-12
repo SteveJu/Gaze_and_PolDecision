@@ -301,6 +301,9 @@ var experimentOverview = {
 
 var test1a = {
   type: 'html-keyboard-response',
+  on_start: function (){
+    time_start();
+  },
   stimulus: `<img height="770px" width="1026px" src="${issue_img[0]}">`,
   choices: ['spacebar'],
   post_trial_gap: 500,
@@ -310,6 +313,9 @@ var test1b = {
   stimulus: `<img height="770px" width="1280px" src="${issue_img[1]}">`,
   choices: ['leftarrow','rightarrow'],
   post_trial_gap: 500,
+  on_finish: function(){
+    time_record();
+  }
 }
 
 var test2a = {
@@ -439,7 +445,7 @@ function binary_choice_state_logger(finish_data_accuracy) {
       },
       validate_counter = 0;
   }
-  if (finish_data_accuracy < validationAccuracy & validate_counter <= 2) {
+  if (finish_data_accuracy < validationAccuracy && validate_counter <= 2) {
     binary_choice_states = {
         doCalibration: false,
         dovalidation: true,
@@ -447,7 +453,7 @@ function binary_choice_state_logger(finish_data_accuracy) {
       },
       validate_counter += 1;
   }
-  if (validate_counter == 3) {
+  if (validate_counter === 3) {
     binary_choice_states = {
       //set the default 
       doCalibration: true,
@@ -488,7 +494,7 @@ var fixation = {
 var if_node1 = {
   timeline: [fixation],
   conditional_function: function(){
-      if(Math.round(charity_choice_count%10) == 0){
+      if(Math.round(charity_choice_count%10) === 0){
           return true;
       } else {
           return false;
@@ -500,7 +506,7 @@ var if_node1 = {
 var if_node2 = {
   timeline: [fixation1],
   conditional_function: function(){
-      if(Math.round(charity_choice_count%10) != 0){
+      if(Math.round(charity_choice_count%10) !== 0){
           return true;
       } else {
           return false;
@@ -727,7 +733,7 @@ function startExperiment() {
                    We will send you $7 as your participant fee soon! </br> 
       </div>`);
       }
-      if (trialcounter == 40) {
+      if (trialcounter === 40) {
         on_finish_callback();
         jsPsych.data.reset();
       }
@@ -745,7 +751,7 @@ function saveData() {
   xhr.open('POST', 'write_data.php'); // change 'write_data.php' to point to php script.
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.onload = function () {
-    if (xhr.status == 200) {
+    if (xhr.status === 200) {
       var response = JSON.parse(xhr.responseText);
       //   console.log(response.success);
     }
